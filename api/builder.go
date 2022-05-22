@@ -43,8 +43,14 @@ func simpleGoBuild(project common.AppProject) error {
 	if Verbose() {
 		fmt.Println("Performing 'go build'...")
 	}
+	
+	err := util.ExecCmd(exec.Command("go", "mod", "tidy")
+	if err != nil {
+		fmt.Println("Error in building", project.SrcDir())
+		return err
+	}
 
-	err := util.ExecCmd(exec.Command("go", "build", "-mod=mod", "-o", project.Executable()), project.SrcDir())
+	err = util.ExecCmd(exec.Command("go", "build", "-o", project.Executable()), project.SrcDir())
 	if err != nil {
 		fmt.Println("Error in building", project.SrcDir())
 		return err

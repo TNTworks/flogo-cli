@@ -18,8 +18,8 @@ var newJsonString = `{
 	"imports": [
 	  "github.com/project-flogo/flow",
 	  "github.com/skothari-tibco/flogoaztrigger",
-	  "github.com/project-flogo/contrib/activity/actreturn",
-	  "github.com/project-flogo/contrib/activity/log",
+	  "github.com/TNTworks/flogo-contrib/activity/actreturn",
+	  "github.com/TNTworks/flogo-contrib/activity/log",
 	  "github.com/TIBCOSoftware/flogo-contrib/activity/rest"
 	],
 	"triggers": [
@@ -62,7 +62,7 @@ var newJsonString = `{
 			  "id": "log",
 			  "name": "Log Message",
 			  "activity": {
-				"ref": "github.com/project-flogo/contrib/activity/log",
+				"ref": "github.com/TNTworks/flogo-contrib/activity/log",
 				"input": {
 				  "message": "=$flow.in",
 				  "flowInfo": "false",
@@ -74,7 +74,7 @@ var newJsonString = `{
 				"id" :"return",
 				"name" : "Activity Return",
 				"activity":{
-					"ref" : "github.com/project-flogo/contrib/activity/actreturn",
+					"ref" : "github.com/TNTworks/flogo-contrib/activity/actreturn",
 					"settings":{
 						"mappings":{
 							"out": "nameA"
@@ -142,7 +142,7 @@ func TestInstallPkg(t *testing.T) {
 
 	assert.Nil(t, err)
 
-	err = InstallPackage(NewAppProject(filepath.Join(testEnv.currentDir, "myApp")), "github.com/project-flogo/contrib/activity/noop")
+	err = InstallPackage(NewAppProject(filepath.Join(testEnv.currentDir, "myApp")), "github.com/TNTworks/flogo-contrib/activity/noop")
 	assert.Nil(t, err)
 
 	appProject := NewAppProject(filepath.Join(testEnv.currentDir, "myApp"))
@@ -172,7 +172,7 @@ func TestInstallPkgWithVersion(t *testing.T) {
 
 	assert.Nil(t, err)
 
-	err = InstallPackage(NewAppProject(filepath.Join(testEnv.currentDir, "myApp")), "github.com/project-flogo/contrib/activity/log@v0.9.0")
+	err = InstallPackage(NewAppProject(filepath.Join(testEnv.currentDir, "myApp")), "github.com/TNTworks/flogo-contrib/activity/log@v0.9.0")
 	assert.Nil(t, err)
 
 	appProject := NewAppProject(filepath.Join(testEnv.currentDir, "myApp"))

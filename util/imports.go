@@ -11,10 +11,10 @@ import (
 these imports are stored in flogo.json in the "imports" array, for instance:
 
  "imports": [
-   "github.com/project-flogo/contrib@v0.9.0-alpha.4:/activity/log",
-   "github.com/project-flogo/contrib/activity/rest@v0.9.0"
-   "rest_activity github.com/project-flogo/contrib@v0.9.0:/activity/rest",
-   "rest_trigger github.com/project-flogo/contrib:/trigger/rest",
+   "github.com/TNTworks/flogo-contrib@v0.9.0-alpha.4:/activity/log",
+   "github.com/TNTworks/flogo-contrib/activity/rest@v0.9.0"
+   "rest_activity github.com/TNTworks/flogo-contrib@v0.9.0:/activity/rest",
+   "rest_trigger github.com/TNTworks/flogo-contrib:/trigger/rest",
    "github.com/project-flogo/flow"
  ]
 

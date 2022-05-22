@@ -126,7 +126,7 @@ Flags:
 Install the basic REST trigger:
 
 ```bash
-$ flogo install github.com/project-flogo/contrib/trigger/rest
+$ flogo install github.com/TNTworks/flogo-contrib/trigger/rest
 ```
 Install a contribution that you are currently developing on your computer:
 
@@ -219,7 +219,7 @@ Usage:
 Update you log activity to master:
 
 ```bash
-$ flogo update github.com/project-flogo/contrib/activity/log@master
+$ flogo update github.com/TNTworks/flogo-contrib/activity/log@master
 ```
 
 Update your flogo core library to latest master:

@@ -68,9 +68,9 @@ First, create a file called `flogo.json` and with the below content (which is a 
   "version": "0.0.1",
   "appModel": "1.1.0",
   "imports": [
-  	"github.com/project-flogo/contrib/trigger/rest",
+  	"github.com/TNTworks/flogo-contrib/trigger/rest",
   	"github.com/project-flogo/flow",
-  	"github.com/project-flogo/contrib/activity/log"
+  	"github.com/TNTworks/flogo-contrib/activity/log"
   ],
   "triggers": [
     {
@@ -161,9 +161,9 @@ Not sure where to start? No problem, you can browse the Project Flogo repos and 
 * Project Flogo: [kind/help-wanted](https://github.com/TIBCOSoftware/flogo/issues?q=is%3Aissue+is%3Aopen+label%3A%22help+wanted%22) and [good first issue](https://github.com/TIBCOSoftware/flogo/issues?q=is%3Aissue+is%3Aopen+label%3A%22good+first+issue%22)
 * flogo cli: [kind/help-wanted](https://github.com/TNTworks/flogo-cli/issues?q=is%3Aissue+is%3Aopen+label%3A%22help+wanted%22) and [good first issue](https://github.com/TNTworks/flogo-cli/issues?q=is%3Aissue+is%3Aopen+label%3A%22good+first+issue%22)
 * flogo core: [kind/help-wanted](https://github.com/project-flogo/core/issues?q=is%3Aissue+is%3Aopen+label%3A%22help+wanted%22) and [good first issue](https://github.com/project-flogo/core/issues?q=is%3Aissue+is%3Aopen+label%3A%22good+first+issue%22)
-* flogo contrib: [kind/help-wanted](https://github.com/project-flogo/contrib/issues?q=is%3Aissue+is%3Aopen+label%3A%22help+wanted%22) and [good first issue](https://github.com/project-flogo/contrib/issues?q=is%3Aissue+is%3Aopen+label%3A%22good+first+issue%22)
+* flogo contrib: [kind/help-wanted](https://github.com/TNTworks/flogo-contrib/issues?q=is%3Aissue+is%3Aopen+label%3A%22help+wanted%22) and [good first issue](https://github.com/TNTworks/flogo-contrib/issues?q=is%3Aissue+is%3Aopen+label%3A%22good+first+issue%22)
 
-Another great way to contribute to Project Flogo is to check [flogo-contrib](https://github.com/project-flogo/contrib). That repository contains some basic contributions, such as activities, triggers, etc. Perhaps there is something missing? Create a new activity or trigger or fix a bug in an existing activity or trigger.
+Another great way to contribute to Project Flogo is to check [flogo-contrib](https://github.com/TNTworks/flogo-contrib). That repository contains some basic contributions, such as activities, triggers, etc. Perhaps there is something missing? Create a new activity or trigger or fix a bug in an existing activity or trigger.
 
 If you have any questions, feel free to post an issue and tag it as a question, email flogo-oss@tibco.com or chat with the team and community:
 

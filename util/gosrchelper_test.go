@@ -19,7 +19,7 @@ func TestFindGoModPackageSrc(t *testing.T) {
 
 
 func TestFindOldPackageSrc(t *testing.T) {
-	str, ver, err := FindOldPackageSrc("github.com/project-flogo/cli")
+	str, ver, err := FindOldPackageSrc("github.com/TNTworks/flogo-cli")
 	if err != nil {
 		fmt.Println("err:", err)
 		t.FailNow()

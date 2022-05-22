@@ -2,7 +2,7 @@ package commands
 
 import (
 	"fmt"
-	"github.com/project-flogo/cli/common"
+	"github.com/TNTworks/flogo-cli/common"
 	"github.com/spf13/cobra"
 	"os"
 )

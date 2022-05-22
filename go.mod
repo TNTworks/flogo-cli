@@ -1,4 +1,4 @@
-module github.com/project-flogo/cli
+module github.com/TNTworks/flogo-cli
 
 require (
 	github.com/coreos/go-semver v0.2.0

@@ -8,8 +8,8 @@ import (
 	"path/filepath"
 	"strings"
 
-	"github.com/project-flogo/cli/common"
-	"github.com/project-flogo/cli/util"
+	"github.com/TNTworks/flogo-cli/common"
+	"github.com/TNTworks/flogo-cli/util"
 )
 
 var fileSampleEngineMain = filepath.Join("examples", "engine", "main.go")

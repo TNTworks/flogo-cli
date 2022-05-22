@@ -13,8 +13,8 @@ import (
 	"text/template"
 	"time"
 
-	"github.com/project-flogo/cli/common"
-	"github.com/project-flogo/cli/util"
+	"github.com/TNTworks/flogo-cli/common"
+	"github.com/TNTworks/flogo-cli/util"
 )
 
 const (

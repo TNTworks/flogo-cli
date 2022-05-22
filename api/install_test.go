@@ -5,7 +5,7 @@ import (
 	"path/filepath"
 	"testing"
 
-	"github.com/project-flogo/cli/common"
+	"github.com/TNTworks/flogo-cli/common"
 	"github.com/stretchr/testify/assert"
 )
 

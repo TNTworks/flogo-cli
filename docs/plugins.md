@@ -33,7 +33,7 @@ package myplugin
 
 import (
 	"fmt"
-	"github.com/project-flogo/cli/common" // Flogo CLI support code
+	"github.com/TNTworks/flogo-cli/common" // Flogo CLI support code
 	"github.com/spf13/cobra"
 )
 

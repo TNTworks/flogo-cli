@@ -1,7 +1,7 @@
 package api
 
 import (
-	"github.com/project-flogo/cli/util"
+	"github.com/TNTworks/flogo-cli/util"
 )
 
 var verbose = false

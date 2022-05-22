@@ -3,7 +3,7 @@
 package main
 
 import (
-	"github.com/project-flogo/cli/util"
+	"github.com/TNTworks/flogo-cli/util"
 	"os"
 )
 
@@ -14,7 +14,7 @@ import (
 // parse the version from the source. Hence it is possible to distribute the CLI as a fully static binary.
 //
 // Users getting the CLI with a classic "go get" command will still have the version retrieved from the directory
-// $GOPATH/src/github.com/project-flogo/cli
+// $GOPATH/src/github.com/TNTworks/flogo-cli
 func main() {
 
 	_, currentVersion, _ := util.GetCLIInfo()

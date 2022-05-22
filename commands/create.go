@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/project-flogo/cli/api"
+	"github.com/TNTworks/flogo-cli/api"
 	"github.com/spf13/cobra"
 )
 

@@ -6,8 +6,8 @@ import (
 	"io/ioutil"
 	"os"
 
-	"github.com/project-flogo/cli/common"
-	"github.com/project-flogo/cli/util"
+	"github.com/TNTworks/flogo-cli/common"
+	"github.com/TNTworks/flogo-cli/util"
 )
 
 func InstallPackage(project common.AppProject, pkg string) error {

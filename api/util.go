@@ -7,7 +7,7 @@ import (
 	"os"
 	"path/filepath"
 
-	"github.com/project-flogo/cli/common"
+	"github.com/TNTworks/flogo-cli/common"
 	"github.com/project-flogo/core/app"
 )
 

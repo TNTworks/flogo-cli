@@ -265,6 +265,7 @@ func ExecCmd(cmd *exec.Cmd, workingDir string) error {
 	var out bytes.Buffer
 
 	if verbose {
+		fmt.Println("executing cmd:", cmd.String())
 		cmd.Stdout = os.Stdout
 		cmd.Stderr = os.Stderr
 	} else {

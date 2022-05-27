@@ -74,7 +74,6 @@ func (m *ModDepManager) AddDependency(flogoImport Import) error {
 	}
 
 	if err != nil {
-		fmt.Println("error detected:", err)
 		return err
 	}
 
